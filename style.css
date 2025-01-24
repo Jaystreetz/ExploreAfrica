@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #836b02;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(233, 164, 17);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.slider {
+    width: 1350;
+    height: fit-content;
+    background: url("/images/images\ \(51\).jpeg");
+    margin: auto;   
+    animation: slide 15s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url("/images/african-tourism-united-to-transform-sector-for-growth-and-opportunity.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    50%{
+        background: url("/images/6c76ba7fefadcf3e3ed6d31d3c44bfd4.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    75%{
+        background: url("/images/1696795823323.jfif");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: url("/images/images\ \(35\).jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.hero {
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 50px;
+    color: #f8d432;
+    text-shadow: 3px 3px 3px #fc5f5f;
+}
+
+.hero p {
+    font-size: 24px;
+    color: #f8f1d2;
+    text-shadow: 3px 3px 3px #333;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+   border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.destinations, .activities {
+    background-color: #f7f7f7;
+}
+
+.destination-cards, .activity-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(248, 241, 245);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
